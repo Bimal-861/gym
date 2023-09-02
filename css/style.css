@@ -1,0 +1,95 @@
+body{
+    color: rgb(251, 246, 246);
+    margin: 0px;
+    padding: 0px;
+    background-image: url("img3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+    
+
+
+.left{
+    display: inline-block;
+    position:absolute;
+    left: 30px;
+    top: 20px;
+}
+.left img{
+    width: 100px;
+}
+.mid{
+    
+    display:block;
+    width:43%;
+    margin: 20px auto;
+    border: 2px solid green;
+}
+.right{
+    position:absolute; 
+    right : 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid yellow;
+}
+.navbar{
+    display: inline-block;   
+}
+.navbar li{
+    display: inline-block; 
+    /* font-size: 25px; */
+}
+.navbar li a{
+    color:black;
+    text-decoration: none;
+    padding: 34px;
+
+
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn{
+ margin: 0px 9px;
+ background-color:none;
+ color: black;
+ padding: 6px 14px;
+ border:2px solid grey;
+ border-radius:10px;
+ font-size:20 px;
+ cursor:pointer;
+
+}
+.btn:hover{
+    background-color: rgb(139, 107, 107);
+}
+.left div{
+    text-align: center;
+}
+.container{
+    border: 2px solid rgb(186, 201, 186);
+    margin:106px 80px;
+    padding:75px;
+    width:33%;
+    border-radius:28px;
+    
+}
+.form input{
+    text-align: center;
+    display:block;
+    width:48%;
+    padding:11px;
+    margin:11px auto;
+    border-radius:8px;
+}
+
+.container h1{
+    text-align:center;
+}
+.container button{
+    display:block;
+    width:auto;
+    margin:auto;
+}
+
